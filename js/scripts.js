@@ -6,8 +6,8 @@
 
         //T01Z04 - tydzien 1, zadanie 4
         
-        var form = $("#name-form");
-            field = $(form).find("input#name"); // zmienna zwracająca input name 
+        var form = $("#name-form"),
+            field = $(form).find("input#name"), // zmienna zwracająca input name 
             button = $("button.add-btn");
 
         $(button).on("click", function(){ 
